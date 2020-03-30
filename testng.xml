@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="CreateAccountTest">
+    <classes>
+      <class name="com.mystore.qa.testcases.CreateAccountTest"/>
+     </classes>
+     </test>
+     
+	  <test name="LoginTest">  
+	  <classes>   
+      <class name="com.mystore.qa.testcases.LoginTest"/>
+      </classes>
+      </test>
+      
+      <test name="placeorder">
+      <classes>
+       <class name="com.mystore.qa.testcases.PlaceOrderTest"/>
+       </classes>
+       </test>
+       
+       <test name="verifyOrder">
+       <classes>
+      <class name="com.mystore.qa.testcases.VerifyOrderHistory"/>
+       </classes>
+  	</test> <!-- Test -->
+</suite> <!-- Suite -->

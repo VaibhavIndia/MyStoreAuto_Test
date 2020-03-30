@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CreateAccountTest(failed)">
+    <classes>
+      <class name="com.mystore.qa.testcases.CreateAccountTest">
+        <methods>
+          <include name="CreateAccount"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mystore.qa.testcases.CreateAccountTest -->
+    </classes>
+  </test> <!-- CreateAccountTest(failed) -->
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="com.mystore.qa.testcases.LoginTest">
+        <methods>
+          <include name="checkcorrectloginTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mystore.qa.testcases.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="5" name="placeorder(failed)">
+    <classes>
+      <class name="com.mystore.qa.testcases.PlaceOrderTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="placeorder"/>
+        </methods>
+      </class> <!-- com.mystore.qa.testcases.PlaceOrderTest -->
+    </classes>
+  </test> <!-- placeorder(failed) -->
+  <test thread-count="5" name="verifyOrder(failed)">
+    <classes>
+      <class name="com.mystore.qa.testcases.VerifyOrderHistory">
+        <methods>
+          <include name="checkorderhistory"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mystore.qa.testcases.VerifyOrderHistory -->
+    </classes>
+  </test> <!-- verifyOrder(failed) -->
+</suite> <!-- Failed suite [Suite] -->
